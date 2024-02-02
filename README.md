@@ -53,7 +53,7 @@ Created app using Flask API
 
 ### Routes
 
-- `/`: Homepage listing all available routes.
+- 'http://127.0.0.1:53212/': Homepage listing all available routes
 - `/api/v1.0/precipitation`: Convert the last 12 months of precipitation data to a dictionary and return the JSON representation.
 - `/api/v1.0/stations`: Return a JSON list of stations from the dataset.
 - `/api/v1.0/tobs`: Query and return a JSON list of temperature observations for the previous year from the most-active station.
